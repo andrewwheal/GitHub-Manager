@@ -19,3 +19,6 @@
 [submodule "fuel/packages/github"]
 	path = fuel/packages/github
 	url = git@github.com:SicoAnimal/github.git
+[submodule "fuel/packages/siconav"]
+	path = fuel/packages/siconav
+	url = git@github.com:SicoAnimal/siconav.git
