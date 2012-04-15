@@ -186,6 +186,7 @@ return array(
 		 */
 		'packages'  => array(
 			'github',
+			'siconav',
 		),
 
 		/**
