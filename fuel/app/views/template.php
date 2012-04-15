@@ -12,7 +12,7 @@
 	</head>
 
 	<body>
-		<?= render('inc/nav') ?>
+		<?= \SicoNav\Nav::instance()->render(); ?>
 		<?= \SicoNav\Breadcrumbs::instance()->output(); ?>
 
 		<section class="container">
