@@ -13,11 +13,21 @@
 	</head>
 
 	<body>
-		<?= \SicoNav\Nav::instance()->render(); ?>
-		<?= \SicoNav\Breadcrumbs::instance()->output(); ?>
+		<header>
+			<?= \SicoNav\Nav::instance()->render(); ?>
+			<?= \SicoNav\Breadcrumbs::instance()->output(); ?>
+		</header>
 
 		<section class="container">
 			<?= $content ?>
 		</section>
+
+		<footer class="container">
+			<div class="row">
+				<p class="span4" style="text-align: left;">GitHub Manager v1.0 alpha</p>
+				<p class="span4" style="text-align: center;">Powered by <a href="http://fuelphp.com" target="_blank">FuelPHP</a></p>
+				<p class="span4" style="text-align: right;">Created by: <a href="http://twitter.com/SicoAnimal" target="_blank">SicoAnimal</a></p>
+			</div>
+		</footer>
 	</body>
 </html>

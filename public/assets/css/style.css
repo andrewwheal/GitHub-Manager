@@ -5,3 +5,8 @@ body {
 .page-header {
 	margin: 0 0 18px;
 }
+
+footer {
+	border-top: 1px solid #DDD;
+	padding-top: 8px;
+}
